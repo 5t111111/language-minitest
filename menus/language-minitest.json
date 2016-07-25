@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle language-minitest",
+        "command": "language-minitest:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "language-minitest",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "language-minitest:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
