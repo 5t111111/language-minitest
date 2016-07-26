@@ -17,6 +17,6 @@
     'name': 'support.function.spec.minitest'
   }
   {
-    'include': 'source.ruby.rails'
+    'include': 'source.ruby'
   }
 ]
