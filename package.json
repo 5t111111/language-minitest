@@ -1,7 +1,7 @@
 {
   "name": "language-minitest",
   "main": "./lib/language-minitest",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Adds syntax highlighting for Minitest files (both assertion and spec) in Atom.",
   "keywords": [
     "minitest",
