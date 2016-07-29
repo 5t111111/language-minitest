@@ -13,6 +13,10 @@
     'name': 'support.function.assertion.minitest'
   }
   {
+    'match': '(?<!\\.)\\b(assert_redirected_to|assert_response|assert_no_difference|assert_difference|ssert_enqueued_with)\\b'
+    'name': 'support.function.rails.minitest'
+  }
+  {
     'match': '\\b(must_be|must_be_close_to|must_be_empty|must_be_instance_of|must_be_kind_of|must_be_nil|must_be_same_as|must_be_silent|must_be_within_delta|must_be_within_epsilon|must_equal|must_include|must_match|must_output|must_raise|must_respond_to|must_send|must_throw|wont_be|wont_be_close_to|wont_be_empty|wont_be_instance_of|wont_be_kind_of|wont_be_nil|wont_be_same_as|wont_be_within_delta|wont_be_within_epsilon|wont_equal|wont_include|wont_match|wont_respond_to)\\b'
     'name': 'support.function.spec.minitest'
   }
